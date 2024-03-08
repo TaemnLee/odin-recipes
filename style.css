@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+}
+
+button {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: white;
+}
+
+#Pasta {
+    background-color: red;
+}
+
+#Bibimbap {
+    background-color: green;
+}
+
+#Sujeonggwa {
+    background-color: orange;
+}
