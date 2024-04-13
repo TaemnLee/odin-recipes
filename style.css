@@ -1,21 +1,46 @@
+body {
+    box-sizing: border-box;
+}
+
 .title {
     text-align: center;
 }
 
-button {
+.container img {
+    display: block;
+    margin: auto;
+    border: 5px solid #FF7F50;
+    padding: 24px;
+}
+
+.button-container button {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
+    display: block;
     color: white;
+    margin: auto;
+    border: 5px solid #FFD700;
+
+}
+
+.button-container a {
+    text-decoration-line: none;
 }
 
 #Pasta {
-    background-color: red;
+    background-color: #FF4500;
+
+    padding: 5px 30px;
 }
 
 #Bibimbap {
-    background-color: green;
+    background-color: #556B2F;
+
+    padding: 5px 13px;
 }
 
 #Sujeonggwa {
     background-color: orange;
+
+    padding: 5px 10px;
 }
