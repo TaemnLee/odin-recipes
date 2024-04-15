@@ -2,19 +2,12 @@ body {
     box-sizing: border-box;
 }
 
-h3 {
-    display: block;
-}
-
-a {
-    text-decoration: none;
-    display: block;
-}
-
+/* Title */
 .title {
     text-align: center;
 }
 
+/*Logo*/
 .container img {
     display: block;
     margin: auto;
@@ -25,27 +18,39 @@ a {
 .button-container button {
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    font-style: bold;
     display: block;
     color: white;
     margin: auto;
     border: 5px solid #FFD700;
 }
+/*link*/
+a {
+    text-decoration: none;
+    display: block;
+}
+
+h3 {
+    color: #eee;
+    margin: 10px;
+}
 
 #Pasta {
     background-color: #FF4500;
     display: block;
+    margin: 20px auto;
     padding: 0px 30px;
 }
 
 #Bibimbap {
     background-color: #556B2F;
     display: block;
+    margin: 20px auto;
     padding: 0px 13px;
 }
 
 #Sujeonggwa {
     background-color: #C46200;
     display: block;
+    margin: 20px auto;
     padding: 0px 10px;
 }
